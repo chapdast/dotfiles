@@ -80,10 +80,9 @@ alias mf="make -f Makefile.local $@"
 alias cbg="nitrogen --random --set-zoom-fill $HOME/Pictures"
 
 # DOCKER IMAGES
-#alias pgmain="docker run -d --name pg-main -e POSTGRES_PASSWORD=gwh28dgcmp -v ${HOME}/pg-store/:/var/lib/postgresql/data -p 5432:5432 -d postgres"
-alias pgmain="docker run -d --name pg-main -e POSTGRES_PASSWORD=gwh28dgcmp -p 5432:5432 -d postgres"
+alias pgmain="docker run -d --name pg-main -e POSTGRES_PASSWORD=$USER -p 5432:5432 -d postgres"
 
-alias redismain="docker run -d --name redis-main -p 6379:6379 -d redis"
+alias redismain="docker run -d --name redis-main -p 6379:6379 -d redis "
 alias chmain="docker run -d --name clickhouse-main --ulimit nofile=262144:262144 -p 8123:8123 -p 9000:9000 yandex/clickhouse-server"
 alias natsmain="docker run -d --name nats-main -p4222:4222 -p 8222:8222 -p 6222:6222 -d nats"
 
