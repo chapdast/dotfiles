@@ -1,0 +1,59 @@
+env:
+  TERM: alacritty
+
+window:
+  dimensions:
+    columns: 80
+    lines: 20
+      # position:
+      # x: 100
+      # y: 100
+  padding:
+    x: 20
+    y: 20
+  decorations: None
+  opacity: 1 
+    #startup_mode: Windowed
+
+    #dynamic_title: true
+
+font:
+  normal:
+    family: IBM Plex Mono Text
+    style: Regular
+
+  bold:
+    family: IBM Plex Mono Text
+    style: Bold
+
+  italic:
+    family: IBM Plex Mono Text
+    style: Italic
+
+  bold_italic:
+    family: IBM Plex Mono Text    
+    style: Bold Italic
+
+
+  size: 11
+
+  builtin_box_drawing: true
+
+  draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#c5c8a6'
+
+cursor:
+  style:
+    shape: Underline
+    blinking: On
+  vi_mode_style: Beam
+  blink_interval: 430
+  thickness: .18
+
+
+    # key_bindings:
+    # - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
