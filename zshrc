@@ -107,4 +107,7 @@ alias grep="grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.
 echo "\e[31m💀\e[32m💀\e[33m💀\e[34m💀\e[35m💀\e[36m💀" 
 
 source "$HOME/.cargo/env"
-source "$HOME/vpd.sh"
+#source "$HOME/vpd.sh"
+
+# NODE HEAP SIZE
+export NODE_OPTIONS="--max_old_space_size=8048"
