@@ -4,34 +4,34 @@ env:
 window:
   dimensions:
     columns: 80
-    lines: 20
+    lines: 15
       # position:
       # x: 100
       # y: 100
   padding:
     x: 20
     y: 20
-  decorations: None
-  opacity: 1 
+      #decorations: None
+  opacity: .85 
     #startup_mode: Windowed
 
     #dynamic_title: true
 
 font:
   normal:
-    family: IBM Plex Mono Text
+    family: ProFontIIx NFM 
     style: Regular
 
   bold:
-    family: IBM Plex Mono Text
+    family: ProFontIIx NFM 
     style: Bold
 
   italic:
-    family: IBM Plex Mono Text
+    family: ProFontIIx NFM 
     style: Italic
 
   bold_italic:
-    family: IBM Plex Mono Text    
+    family: ProFontIIx NFM 
     style: Bold Italic
 
 
@@ -51,7 +51,7 @@ cursor:
     shape: Underline
     blinking: On
   vi_mode_style: Beam
-  blink_interval: 430
+  blink_interval: 230
   thickness: .18
 
 
